@@ -107,7 +107,7 @@ CREATE TABLE `role_has_permissions` (
 
 /*Data for the table `role_has_permissions` */
 
-insert  into `role_has_permissions`(`permission_id`,`role_id`) values (13,2),(14,2),(16,2),(15,2),(13,3),(13,5),(1,1),(2,1),(4,1),(13,1),(14,1),(15,1),(16,1);
+insert  into `role_has_permissions`(`permission_id`,`role_id`) values (13,2),(14,2),(16,2),(15,2),(13,3),(13,5),(1,1),(2,1),(3,1),(4,1),(13,1),(14,1),(15,1),(16,1);
 
 /*Table structure for table `roles` */
 
