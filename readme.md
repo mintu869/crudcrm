@@ -22,6 +22,6 @@ Home Page conatins the links of different page according to the user role.
 	
 ## DATABASE
 	** Migration have been created .
-	** DATABASE for demo data and structure could be found in database\SQLFILES\cricket_world.sql
+	** DATABASE for demo data and structure could be found in database\SQLFILES\DB.sql
 	
 	
