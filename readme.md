@@ -4,8 +4,6 @@
 
 Sales Management System is a web application containg different users with different roles and permissions:
 
-- 
-
 [Home]
 Home Page conatins the links of different page according to the user role.
  - Roles & Permissions
