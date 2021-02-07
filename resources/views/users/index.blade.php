@@ -45,15 +45,15 @@
     </td>
     <td>
        <a class="btn btn-info" href="{{ url('show-user/'.$user->id) }}">Show</a>
-	   @if(Auth::user()->hasPermissionTo('user-edit'))
+	   @can('user-edit')
        <a class="btn btn-primary" href="{{ url('edit-user/'.$user->id) }}">Edit</a>
-		@endif
-		@if(Auth::user()->hasPermissionTo('user-delete'))
+		@endcan
+		@can('user-delete')
         {!! Form::open(['method' => 'DELETE','url' => ['delete-user/'.$user->id
 		],'style'=>'display:inline']) !!}
             {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
         {!! Form::close() !!}
-		@endif
+		@endcan
     </td>
   </tr>
  @endforeach
