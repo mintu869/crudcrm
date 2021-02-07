@@ -19,9 +19,11 @@ Home Page conatins the links of different page according to the user role.
 		- View Customers (List).
 	- Customers
 		- Can login Only.
+        
+> Login Credentials for admin username : admin@gmail.com password : 123456
 	
 ## DATABASE
 	** Migration have been created .
-	** DATABASE for demo data and structure could be found in database\SQLFILES\cricket_world.sql
+	** DATABASE for demo data and structure could be found in database\SQLFILES\DB.sql
 	
 	
